@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: #FFD900;
+    height: 118px;
+    width: 1728px;
+}
+#img1 {
+    margin-top: 27px;
+    margin-left: 58px;
+    width: 202px;
+    height: 63px;
+}
+main {
+    display: flex;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#box.div{
+    width: 40%;
+}
+#purpleDiv{
+    width: 750px;
+    height: 530px;
+    background-color: #514988;
+    text-align: center;
+}
+#reviva{
+    color: #FFD900;
+    font-size: 60px;
+    padding: 20px;
+}
+#de01{
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 5px
+}
+#text{
+    color: antiquewhite;
+    font-size: 25px;
+    max-width: 95%;
+    margin-bottom: 50px;
+    margin: 40px auto 40px auto;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+#lastdiv {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer{
+    width: 80% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+.timer h1{
+    color: #514988;
+    font-size: 60px;
+    justify-content: space-between
+}
+#paramaior {
+    color: #E33881;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+video{
+    max-width: 100%;
+    max-height: 100%;
+}
+section.tickets-sec {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.tickets-sec p{
+    color: #F3C61F;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-container-title {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.cards img {
+    width: 170px;
+}
+
+
+
+button {
+    width: 400px;
+    height: 100px;
+    background-color: #514988;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+button:hover {
+    background-color: #FFF;
+    transition: 100ms;
+    border: 2px solid #514988;
+    color: #514988;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1158px) {
+
+    .tickets-sec {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+
+    
+    .cards {
+        display: flex;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        gap: 10px
+    }
+}
+
+@media only screen and (max-width: 530px) {
+
+    .information-event-sec div:last-child .timer  {
+        flex-wrap: wrap;
+    }
+
+    .information-event-sec div:last-child  p {
+        margin-top: 15px;
+        max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1365px) {
+    .information-event-sec div:first-child p{
+        font-size: 25px !important;
+    }
+}
